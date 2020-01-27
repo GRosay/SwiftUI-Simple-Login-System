@@ -15,6 +15,9 @@
 		E351C55623DF693300EF0E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E351C55423DF693300EF0E7B /* LaunchScreen.storyboard */; };
 		E351C56123DF693300EF0E7B /* SimpleLoginSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C56023DF693300EF0E7B /* SimpleLoginSystemTests.swift */; };
 		E351C56C23DF693300EF0E7B /* SimpleLoginSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C56B23DF693300EF0E7B /* SimpleLoginSystemUITests.swift */; };
+		E351C57A23DF6A7C00EF0E7B /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C57923DF6A7C00EF0E7B /* LoginSettings.swift */; };
+		E351C57C23DF6E6300EF0E7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C57B23DF6E6300EF0E7B /* LoginView.swift */; };
+		E351C57E23DF7A7C00EF0E7B /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E351C57D23DF7A7C00EF0E7B /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E351C56723DF693300EF0E7B /* SimpleLoginSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E351C56B23DF693300EF0E7B /* SimpleLoginSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoginSystemUITests.swift; sourceTree = "<group>"; };
 		E351C56D23DF693300EF0E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E351C57923DF6A7C00EF0E7B /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
+		E351C57B23DF6E6300EF0E7B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E351C57D23DF7A7C00EF0E7B /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		E351C54823DF692C00EF0E7B /* SimpleLoginSystem */ = {
 			isa = PBXGroup;
 			children = (
+				E351C57923DF6A7C00EF0E7B /* LoginSettings.swift */,
 				E351C54923DF692C00EF0E7B /* AppDelegate.swift */,
 				E351C54B23DF692C00EF0E7B /* SceneDelegate.swift */,
 				E351C54D23DF692C00EF0E7B /* ContentView.swift */,
@@ -106,6 +113,8 @@
 				E351C55423DF693300EF0E7B /* LaunchScreen.storyboard */,
 				E351C55723DF693300EF0E7B /* Info.plist */,
 				E351C55123DF693300EF0E7B /* Preview Content */,
+				E351C57B23DF6E6300EF0E7B /* LoginView.swift */,
+				E351C57D23DF7A7C00EF0E7B /* FirstView.swift */,
 			);
 			path = SimpleLoginSystem;
 			sourceTree = "<group>";
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E351C57A23DF6A7C00EF0E7B /* LoginSettings.swift in Sources */,
+				E351C57E23DF7A7C00EF0E7B /* FirstView.swift in Sources */,
 				E351C54A23DF692C00EF0E7B /* AppDelegate.swift in Sources */,
 				E351C54C23DF692C00EF0E7B /* SceneDelegate.swift in Sources */,
+				E351C57C23DF6E6300EF0E7B /* LoginView.swift in Sources */,
 				E351C54E23DF692C00EF0E7B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

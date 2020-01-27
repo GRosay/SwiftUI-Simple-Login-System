@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Image("lock")
+                .resizable()
+                .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                .frame(width: 200.0, height: 200.0)
+                .cornerRadius(90.0)
+            Text("I am protected by a login page.")
+        }
     }
 }
 
