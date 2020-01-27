@@ -32,7 +32,7 @@ struct LoginView: View {
                     .padding()
                     .background(Color(red: 239.0/255.0, green: 243.0/255.0, blue: 244.0/255.0, opacity: 1.0))
                     .cornerRadius(5.0)
-                TextField("Password...", text: self.$password)
+                SecureField("Password...", text: self.$password)
                     .frame(width: geometry.size.height - 50, height: 30)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
